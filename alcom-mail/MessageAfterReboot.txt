@@ -1,0 +1,5 @@
+To: vereskanthem@gmail.com
+From: alcom.monitoring.system@gmail.com
+Subject: Alcom. Плановая перезагрузка SIP-сервера.
+
+Сервер был перезагружен Вск Апр 24 18:52:17 OMST 2016

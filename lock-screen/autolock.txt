@@ -1,0 +1,1 @@
+Use xautolock and enable systemd's service file

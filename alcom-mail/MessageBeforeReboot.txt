@@ -1,0 +1,5 @@
+To: vereskanthem@gmail.com
+From: alcom.monitoring.system@gmail.com
+Subject: Alcom. Плановая перезагрузка SIP-сервера.
+
+Запущен процесс перезагрузки SIP-сервера... Скоро придет сообщение о том, что он был корректно перезагружен. Вск Апр 24 18:55:54 OMST 2016
