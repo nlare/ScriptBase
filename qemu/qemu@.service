@@ -1,0 +1,16 @@
+[Unit]
+Description=Qemu run VM (%i)
+After=network.target
+
+[Service]
+Type=forking
+PIDFile=/tmp/qemu-%i.pid
+EnvironmentFile=/etc/conf.d/qemu.d/%i
+User=nlare
+Group=users
+ExecStart=/usr/bin/qemu-system-x86_64 -name %i -daemonize -pidfile /tmp/qemu-%i.pid -monitor unix:/tmp/%i.sock,server,nowait $args -drive file=/net/NAS/qemu_img/%i.img
+ExecStop=/bin/sh -c '/usr/bin/echo system_powerdown | /usr/bin/socat - UNIX-CONNECT:/tmp/%i.sock; while ps ax | grep "/usr/bin/qemu-system-x86_64 -name %i" | grep -vq grep; do sleep 1; done'
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target
