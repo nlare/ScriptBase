@@ -1,7 +1,0 @@
-
-BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
-10:FE:ED:38:F6:0C, 2016-08-13 17:44:35, 2016-08-13 17:45:28,  6,  54, WPA2, CCMP,PSK, -61,      297,      185,   0.  0.  0.  0,   6, netwrk, 
-
-Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
-00:03:AB:37:3E:B7, 2016-08-13 17:44:49, 2016-08-13 17:45:08, -36,      191, 10:FE:ED:38:F6:0C,
-

@@ -1,2 +1,2 @@
 #!/bin/bash
-xfreerdp /v:TTT-PK /u:$1 /f
+xfreerdp /v:TTT-DESKTOP /u:$1
